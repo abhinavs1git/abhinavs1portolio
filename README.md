@@ -1,1 +1,1 @@
-Visible at - https://abhinavs1git.github.io/abhinavs1portolio/#services
+Visible at - https://abhinavs1git.github.io/abhinavs1portolio
