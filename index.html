@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Abhinav Singh - Data Analyst and Data Engineer specializing in real-time data pipelines, database modeling, and analytical dashboards.">
+    <title>Abhinav Singh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Mouse Tracking Background Glow -->
+    <div class="cursor-glow" id="glow-element"></div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo" id="nav-logo">
+                <!-- Smiley Crescent Logo SVG -->
+                <svg viewBox="0 0 100 100">
+                    <path d="M20,50 C20,72 38,90 60,90 C69,90 77,87 84,82 C70,87 54,82 44,70 C34,58 32,41 38,26 C27,32 20,40 20,50 Z" />
+                    <circle cx="50" cy="50" r="5" />
+                </svg>
+                <span>Abhinav.</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#services" class="nav-link active">Services</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#works" class="nav-link">Works</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#leadership" class="nav-link">Leadership</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <!-- Hero Left: Name & Socials -->
+                <div class="hero-left reveal-on-scroll">
+                    <h1 class="hero-name">Abhinav<br>Singh.</h1>
+                    <div class="hero-socials">
+                        <a href="#" title="Website">
+                            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" title="Instagram">
+                            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="https://Linkedin.com/in/abhinav1s/" target="_blank" rel="noopener" title="LinkedIn">
+                            <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="https://github.com/abhinavs1git" target="_blank" rel="noopener" title="GitHub">
+                            <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Center: B&W Image -->
+                <div class="hero-center reveal-on-scroll delay-100">
+                    <div class="hero-image-wrapper">
+                        <img src="LS20260601192552.png" alt="Abhinav Singh Portrait" class="hero-image">
+                    </div>
+                </div>
+
+                <!-- Hero Right: Introduction & Bio -->
+                <div class="hero-right reveal-on-scroll delay-200">
+                    <div class="section-label">Introduction</div>
+                    <h2 class="intro-heading">Data Analyst & Data Engineer, Open for Opportunities.</h2>
+                    <p class="intro-bio">
+                        B.Tech Computer Science student specializing in building high-performance data pipelines, database models, and analytics dashboards. I turn complex database streams into clean, actionable, and visual insights.
+                    </p>
+                    
+                    <a href="Abhinav_DA.pdf" target="_blank" class="arrow-link" id="my-story-link">
+                        <span>View Resume</span>
+                        <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services / Focus Cards -->
+        <section class="services" id="services">
+            <div class="container reveal-on-scroll">
+                <div class="services-grid">
+                    <!-- Card 1: Data Analyst (Active / Yellow) -->
+                    <div class="service-card active">
+                        <svg class="card-icon" viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+                        </svg>
+                        <h3>Data<br>Analyst.</h3>
+                        <p>Python, MS Excel, Power BI, SQL, Pandas, NumPy, Exploratory Analysis</p>
+                    </div>
+
+                    <!-- Card 2: Data Engineer -->
+                    <div class="service-card">
+                        <svg class="card-icon" viewBox="0 0 24 24">
+                            <path d="M20 13H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1zM7 19c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm13-16H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zM7 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/>
+                        </svg>
+                        <h3>Data<br>Engineer.</h3>
+                        <p>Apache Kafka, Apache Spark, Zookeeper, MySQL, PostgreSQL, AWS Cloud</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills: Segregated Categories (2x2 Grid Form) -->
+        <section class="skills-detail-section" id="skills">
+            <div class="container reveal-on-scroll">
+                <div class="section-label">Skills Breakdown</div>
+                <div class="section-header-centered" style="margin-bottom: 3rem; text-align: left;">
+                    <h2 style="font-size: 2.2rem;">Technical Capabilities</h2>
+                </div>
+                <div class="skills-detail-grid">
+                    <!-- Programming & Environments -->
+                    <div class="skill-category-card">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon-wrapper">
+                                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+                            </div>
+                            <span class="skill-category-title-text">Programming & Environments</span>
+                        </div>
+                        <div class="skill-tags-group">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">Jupyter</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                        </div>
+                    </div>
+                    <!-- Databases & Cloud -->
+                    <div class="skill-category-card">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon-wrapper">
+                                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C9.24 2 7 3.79 7 6v12c0 2.21 2.24 4 5 4s5-1.79 5-4V6c0-2.21-2.24-4-5-4zm0 2c1.66 0 3 .89 3 2s-1.34 2-3 2-3-.89-3-2 1.34-2 3-2zm0 14c-1.66 0-3-.89-3-2v-1.77c.85.47 1.88.77 3 .77s2.15-.3 3-.77V16c0 1.11-1.34 2-3 2zm0-5c-1.66 0-3-.89-3-2V9.23c.85.47 1.88.77 3 .77s2.15-.3 3-.77V11c0 1.11-1.34 2-3 2z"/></svg>
+                            </div>
+                            <span class="skill-category-title-text">Databases & Cloud</span>
+                        </div>
+                        <div class="skill-tags-group">
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">Snowflake</span>
+                            <span class="skill-tag">Databricks</span>
+                            <span class="skill-tag">AWS Cloud</span>
+                        </div>
+                    </div>
+                    <!-- Data Engineering & Analytics -->
+                    <div class="skill-category-card">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon-wrapper">
+                                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3h7zM4 9V5h3v4H4zm13-4h3v4h-3V5zm0 10h3v4h-3v-4z"/></svg>
+                            </div>
+                            <span class="skill-category-title-text">Data Engineering & Analytics</span>
+                        </div>
+                        <div class="skill-tags-group">
+                            <span class="skill-tag">Apache Kafka</span>
+                            <span class="skill-tag">Apache Spark</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">MS Excel</span>
+                            <span class="skill-tag">Power BI</span>
+                        </div>
+                    </div>
+                    <!-- Professional Capabilities -->
+                    <div class="skill-category-card">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon-wrapper">
+                                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 15l-4-4 1.41-1.41L10 13.17l7.59-7.59L19 7l-9 9z"/></svg>
+                            </div>
+                            <span class="skill-category-title-text">Professional Capabilities</span>
+                        </div>
+                        <div class="skill-tags-group">
+                            <span class="skill-tag">Data Storytelling</span>
+                            <span class="skill-tag">Problem Solving</span>
+                            <span class="skill-tag">Project Management</span>
+                            <span class="skill-tag">Team Collaboration</span>
+                            <span class="skill-tag">Event Coordination</span>
+                            <span class="skill-tag">Data Presentation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section class="edu-cert-section" id="education">
+            <div class="container reveal-on-scroll">
+                <div class="edu-cert-grid">
+                    <!-- Left: Education -->
+                    <div class="education-block">
+                        <div class="section-label">Education</div>
+                        <h2 style="font-size: 2.2rem; margin-bottom: 1rem;">Academic Background</h2>
+                        <div class="education-card">
+                            <div class="education-period">September 2023 – July 2027</div>
+                            <h3 class="education-degree">Bachelor of Technology</h3>
+                            <p class="education-school">Computer Science and Engineering</p>
+                            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">KIET Deemed to be University • Ghaziabad, Uttar Pradesh</p>
+                            <div class="education-gpa">CGPA: 8.5 / 10.0</div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Certifications -->
+                    <div>
+                        <div class="section-label">Credentials</div>
+                        <h2 style="font-size: 2.2rem; margin-bottom: 2rem;">Certifications</h2>
+                        <div class="certifications-list">
+                            <div class="cert-card">
+                                <div class="cert-icon">
+                                    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                                </div>
+                                <div class="cert-details">
+                                    <h4>Google Data Analytics Professional</h4>
+                                    <p>Issued by Coursera</p>
+                                </div>
+                            </div>
+                            <div class="cert-card">
+                                <div class="cert-icon">
+                                    <svg viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z"/></svg>
+                                </div>
+                                <div class="cert-details">
+                                    <h4>AWS Certified Cloud Practitioner</h4>
+                                    <p>Issued by Amazon Web Services</p>
+                                </div>
+                            </div>
+                            <div class="cert-card">
+                                <div class="cert-icon">
+                                    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                                </div>
+                                <div class="cert-details">
+                                    <h4>Data Analytics Essentials</h4>
+                                    <p>Issued by Cisco Networking Academy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Works / Projects Section -->
+        <section class="works" id="works">
+            <div class="container portfolio-grid reveal-on-scroll">
+                <!-- Left Column: Intro & Project 2 -->
+                <div class="portfolio-left">
+                    <div class="section-label">Portfolio</div>
+                    <h2>All Creative Works,<br>Selected projects.</h2>
+                    <p>A handpicked selection of engineering projects representing data integration pipelines, spatial intelligence models, and business intelligence dashboards.</p>
+                    <a href="https://github.com/abhinavs1git" target="_blank" class="arrow-link explore-link">
+                        <span>Explore more</span>
+                        <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+
+                    <!-- Project 2: Ganges - Flood Risk Mapping -->
+                    <div class="project-card animate-card" style="margin-top: 6rem;">
+                        <div class="project-image-container">
+                            <div class="mockup-wrapper">
+                                <div class="mockup-screen">
+                                    <div class="mockup-header">
+                                        <span class="mockup-dot"></span>
+                                        <span class="mockup-dot"></span>
+                                        <span class="mockup-dot"></span>
+                                    </div>
+                                    <div class="mockup-body mockup-map">
+                                        <div class="map-grid" id="flood-map-grid"></div>
+                                        <div class="map-sidebar">
+                                            <div class="map-widget">
+                                                <div class="widget-title">Elev. Avg</div>
+                                                <div class="widget-value">124m</div>
+                                            </div>
+                                            <div class="map-widget">
+                                                <div class="widget-title">Rainfall</div>
+                                                <div class="widget-value" id="rainfall-widget">250mm</div>
+                                            </div>
+                                            <div class="map-widget">
+                                                <div class="widget-title">Risk Area</div>
+                                                <div class="widget-value" style="color: #ff5f56;" id="risk-widget">High</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Sliding details overlay -->
+                            <div class="project-details-overlay">
+                                <div class="project-overlay-title">
+                                    <span>Flood Risk Mapping</span>
+                                    <span style="color: var(--accent); font-size: 0.85rem;">Python, PostgreSQL, Power BI</span>
+                                </div>
+                                <ul class="project-bullets">
+                                    <li>Built a geospatial pipeline using Python and GeoPandas to analyze elevation, rainfall, and proximity to the Ganges River basin.</li>
+                                    <li>Developed a multi-criteria risk model combining spatial factors to identify potential high-risk zones.</li>
+                                    <li>Created interactive folium mapping layers and dashboards to visualize flood-prone regions for safety analytics.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h3 class="project-title">Ganges Flood Mapping</h3>
+                            <span class="project-category">Python, GeoPandas, Power BI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Projects 1 & 3 -->
+                <div class="projects-masonry">
+                    <!-- Project 1: Healthly (Offset Up) -->
+                    <div class="project-card animate-card offset-up">
+                        <div class="project-image-container">
+                            <div class="mockup-wrapper">
+                                <div class="mockup-screen">
+                                    <div class="mockup-header">
+                                        <span class="mockup-dot"></span>
+                                        <span class="mockup-dot"></span>
+                                        <span class="mockup-dot"></span>
+                                    </div>
+                                    <div class="mockup-body mockup-kafka">
+                                        <div style="font-size: 0.65rem; color: var(--text-muted); display:flex; justify-content:space-between;">
+                                            <span>kafka-zookeeper.service</span>
+                                            <span style="color: #27c93f;">● active</span>
+                                        </div>
+                                        <div class="kafka-nodes">
+                                            <div class="kafka-node active" id="node-producer" title="Producer">
+                                                <svg viewBox="0 0 24 24"><path d="M21 11.01L3 11v2h18zM3 16h12v2H3zm0-8h18v2H3z"/></svg>
+                                            </div>
+                                            <div class="kafka-node active" id="node-broker" title="Kafka Broker">
+                                                <svg viewBox="0 0 24 24"><path d="M19 15v4H5v-4h14m1-2H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1zM19 5v4H5V5h14m1-2H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1z"/></svg>
+                                            </div>
+                                            <div class="kafka-node active" id="node-consumer" title="Consumer">
+                                                <svg viewBox="0 0 24 24"><path d="M4 18h16v2H4zm0-6h16v2H4zm0-6h16v2H4z"/></svg>
+                                            </div>
+                                        </div>
+                                        <div class="kafka-stream" id="kafka-stream-log">
+                                            <div class="kafka-log-line">[SYS] Stream pipeline initialized...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Sliding details overlay -->
+                            <div class="project-details-overlay">
+                                <div class="project-overlay-title">
+                                    <span>Healthly Pipeline</span>
+                                    <span style="color: var(--accent); font-size: 0.85rem;">Python, Kafka, Zookeeper, MySQL</span>
+                                </div>
+                                <ul class="project-bullets">
+                                    <li>Engineered a healthcare data pipeline using Kafka to ingest simulated patient records into a star-schema warehouse.</li>
+                                    <li>Automated the generator logic for patient records, populating disease classifications and costs on timestamp streams.</li>
+                                    <li>Connected a Power BI dashboard to the SQL database for real-time epidemiological and financial reporting.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h3 class="project-title">Healthly Pipeline</h3>
+                            <span class="project-category">Kafka, Python, Warehouse</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: E-commerce Analysis -->
+                    <div class="project-card animate-card">
+                        <div class="project-image-container">
+                            <div class="mockup-wrapper">
+                                <div class="mockup-screen">
+                                    <div class="mockup-header">
+                                        <span class="mockup-dot"></span>
+                                        <span class="mockup-dot"></span>
+                                        <span class="mockup-dot"></span>
+                                    </div>
+                                    <div class="mockup-body mockup-ecommerce">
+                                        <div class="ecommerce-stats">
+                                            <div class="map-widget">
+                                                <div class="widget-title">Sales</div>
+                                                <div class="widget-value">$42,504</div>
+                                            </div>
+                                            <div class="map-widget">
+                                                <div class="widget-title">Growth</div>
+                                                <div class="widget-value" style="color: #27c93f;">+18.4%</div>
+                                            </div>
+                                            <div class="map-widget">
+                                                <div class="widget-title">Conversion</div>
+                                                <div class="widget-value">3.2%</div>
+                                            </div>
+                                        </div>
+                                        <div class="ecommerce-chart" id="ecommerce-chart-container"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Sliding details overlay -->
+                            <div class="project-details-overlay">
+                                <div class="project-overlay-title">
+                                    <span>E-commerce Analysis</span>
+                                    <span style="color: var(--accent); font-size: 0.85rem;">Excel, Python, Power BI</span>
+                                </div>
+                                <ul class="project-bullets">
+                                    <li>Cleaned and pre-processed e-commerce sales datasets in Excel to handle anomalies and missing entries.</li>
+                                    <li>Performed data transformations and trend analysis using Python (Pandas/Matplotlib) to profile regional indicators.</li>
+                                    <li>Developed interactive charts and dashboards in Power BI tracking regional sales and margins.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h3 class="project-title">E-commerce Insights</h3>
+                            <span class="project-category">Excel, Python, Power BI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="experience-section" id="experience">
+            <div class="container reveal-on-scroll">
+                <div class="experience-grid">
+                    <!-- Left: Heading -->
+                    <div class="experience-left">
+                        <div class="section-label">Work History</div>
+                        <h2>Professional<br>Experience.</h2>
+                        <p>Detailed timeline of analytics and software internships focusing on database integrations, data stream engineering, and business insights.</p>
+                    </div>
+                    <!-- Right: Vertical Timeline -->
+                    <div class="timeline-vertical">
+                        <!-- Experience item 1: KPMG -->
+                        <div class="timeline-node">
+                            <div class="timeline-header">
+                                <h3 class="timeline-role-title">Data Analytics Virtual Intern</h3>
+                                <div class="timeline-company-period">
+                                    <span>KPMG (Virtual Internship via Forage)</span>
+                                    <span>September 2023</span>
+                                </div>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Conducted detailed Data Quality Assessment (DQA) on transaction records and customer demographics, resolving formatting inconsistencies, outliers, and missing entries.</li>
+                                <li>Performed customer segment profiling using RFM (Recency, Frequency, Monetary value) clustering algorithms to identify high-value demographics for marketing targeting.</li>
+                                <li>Developed interactive dashboard summaries illustrating transaction volumes, revenue trends, and demographic profiles to present insights to key stakeholders.</li>
+                            </ul>
+                        </div>
+                        <!-- Experience item 2: TBI KIET -->
+                        <div class="timeline-node">
+                            <div class="timeline-header">
+                                <h3 class="timeline-role-title">Software Intern (Data Integration)</h3>
+                                <div class="timeline-company-period">
+                                    <span>TBI KIET (Technology Business Incubator)</span>
+                                    <span>June 2024 – August 2024</span>
+                                </div>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Engineered news feed data streams with secure authentication and caching, boosting content discovery speed by 40% and user retention by 30% for agriculture news application.</li>
+                                <li>Integrated secure REST APIs to deliver over 1000+ daily agriculture-focused news articles, introducing query parameters to reduce user search times by 50%.</li>
+                                <li>Collaborated extensively with team members using version control systems (Git) to organize database queries and manage logs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leadership & Extracurricular Section -->
+        <section class="leadership-section" id="leadership">
+            <div class="container reveal-on-scroll">
+                <div class="leadership-grid">
+                    <!-- Left: Heading -->
+                    <div class="leadership-left">
+                        <div class="section-label">Organizing & Community</div>
+                        <h2>Leadership Roles &<br>Extracurricular activities.</h2>
+                        <p>Leading student chapters, orchestrating national cybersecurity conclaves, coordinating content curation, and managing global licenses.</p>
+                    </div>
+                    <!-- Right: Vertical Timeline -->
+                    <div class="timeline-vertical">
+                        <!-- Leadership item 1: TEDxKIET -->
+                        <div class="timeline-node">
+                            <div class="timeline-header">
+                                <h3 class="timeline-role-title">Lead Organiser</h3>
+                                <div class="timeline-company-period">
+                                    <span>TEDxKIET / KIET Group of Institutions</span>
+                                    <span>March 2024 – Present</span>
+                                </div>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Spearheaded the complete end-to-end design and creation of event content, including speaker briefs, presentation scripts, and promotional social media campaigns.</li>
+                                <li>Facilitated professional communications between TEDx Global chapter and local organizers to acquire licensing and ensure compliance with TEDx event guidelines.</li>
+                                <li>Managed cross-functional coordination between audio-visual teams, speaker schedules, and logistical volunteers for a smooth, high-production event.</li>
+                            </ul>
+                        </div>
+                        <!-- Leadership item 2: CyberSecureX -->
+                        <div class="timeline-node">
+                            <div class="timeline-header">
+                                <h3 class="timeline-role-title">Organizer</h3>
+                                <div class="timeline-company-period">
+                                    <span>CyberSecureX Conclave</span>
+                                    <span>June 2025 – September 2025</span>
+                                </div>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Co-led the execution and logistical arrangements of a national-level cybersecurity conclave, gathering over 300 students and industry experts.</li>
+                                <li>Coordinated schedules for workshops, keynotes, and technical bootcamps, including CyberQuest CTF and ExploitEdge Bootcamp.</li>
+                                <li>Managed hospitality, guest logistics, sponsorships, and venue arrangements, ensuring a seamless experience.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-section" id="contact">
+            <div class="container contact-grid reveal-on-scroll">
+                <!-- Left: Query Promo -->
+                <div class="contact-left">
+                    <div class="section-label">Contact</div>
+                    <h2>Got a project?<br>Let's talk.</h2>
+                    <p>Whether you need a real-time data pipeline, a geospatial analysis model, or a full-stack application, feel free to reach out. I'm always open to discussing new projects, creative ideas, or opportunities.</p>
+                    <a href="mailto:abhinavs.forwork@gmail.com" class="arrow-link">
+                        <span>abhinavs.forwork@gmail.com</span>
+                        <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </div>
+
+                <!-- Right: Estimate Form -->
+                <div class="contact-right">
+                    <h3>Estimate your project?<br>Let me know here.</h3>
+                    <form class="contact-form" action="#" method="POST" id="estimation-form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" id="form-name" placeholder=" " required>
+                            <label class="form-label" for="form-name">What's your name?</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" id="form-email" placeholder=" " required>
+                            <label class="form-label" for="form-email">Your fancy email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" id="form-project" placeholder=" " required>
+                            <label class="form-label" for="form-project">Tell me about your project</label>
+                        </div>
+                        <div class="form-footer">
+                            <label class="file-attach-btn" for="form-file">
+                                <svg viewBox="0 0 24 24"><path d="M16.5 6v11.5c0 2.21-1.79 4-4 4s-4-1.79-4-4V5c0-3.31 2.69-6 6-6s6 2.69 6 6v10.5c0 1.38-1.12 2.5-2.5 2.5s-2.5-1.12-2.5-2.5V6H10v9.5c0 2.48 2.02 4.5 4.5 4.5s4.5-2.02 4.5-4.5V5c0-4.42-3.58-8-8-8s-8 3.58-8 8v12.5c0 3.59 2.91 6.5 6.5 6.5s6.5-2.91 6.5-6.5V6h-1.5z"/></svg>
+                                <span>Attach file</span>
+                                <input type="file" id="form-file" style="display: none;">
+                            </label>
+                            <button type="submit" class="submit-btn" aria-label="Submit Form">
+                                <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#" class="logo">
+            <!-- Smiley Crescent Logo SVG -->
+            <svg viewBox="0 0 100 100">
+                <path d="M20,50 C20,72 38,90 60,90 C69,90 77,87 84,82 C70,87 54,82 44,70 C34,58 32,41 38,26 C27,32 20,40 20,50 Z" />
+                <circle cx="50" cy="50" r="5" />
+            </svg>
+        </a>
+        <div class="footer-thanks">Thanks for scrolling, <span>that's all folks.</span></div>
+        <div class="footer-socials">
+            <a href="#" title="Website">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" title="Instagram">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="https://Linkedin.com/in/abhinav1s/" target="_blank" rel="noopener" title="LinkedIn">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://github.com/abhinavs1git" target="_blank" rel="noopener" title="GitHub">
+                <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
