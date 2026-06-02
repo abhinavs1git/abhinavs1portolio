@@ -225,6 +225,32 @@ document.addEventListener('DOMContentLoaded', () => {
     initEcommChart();
 
     // ----------------------------------------------------
+    // 4.5. Mobile Navigation Menu Toggle
+    // ----------------------------------------------------
+    const navToggle = document.querySelector('.mobile-nav-toggle');
+    const primaryNav = document.querySelector('nav');
+    const navLinksList = document.querySelectorAll('nav ul li a');
+
+    if (navToggle && primaryNav) {
+        navToggle.addEventListener('click', () => {
+            const isOpen = navToggle.classList.toggle('open');
+            primaryNav.classList.toggle('open');
+            document.body.classList.toggle('mobile-nav-active');
+            navToggle.setAttribute('aria-expanded', isOpen);
+        });
+
+        // Close mobile nav when clicking a link
+        navLinksList.forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('open');
+                primaryNav.classList.remove('open');
+                document.body.classList.remove('mobile-nav-active');
+                navToggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+    }
+
+    // ----------------------------------------------------
     // 5. Form Submission Mock Handling
     // ----------------------------------------------------
     const form = document.getElementById('estimation-form');
