@@ -1465,7 +1465,31 @@ body.mobile-nav-active {
 
 @media (max-width: 768px) {
     .container {
-        padding: 0 1.5rem;
+        padding: 0 1.25rem;
+    }
+    
+    /* Hide line breaks on mobile to let headings flow naturally */
+    br {
+        display: none;
+    }
+    
+    /* Scale down large headings globally to prevent horizontal overflow */
+    h2, 
+    .section-header-centered h2, 
+    .portfolio-left h2, 
+    .experience-left h2, 
+    .leadership-left h2, 
+    .contact-left h2 {
+        font-size: 1.8rem !important;
+        line-height: 1.25 !important;
+    }
+    
+    .intro-heading {
+        font-size: 1.75rem;
+    }
+    
+    .project-title {
+        font-size: 1.5rem;
     }
     
     /* Show Mobile Menu Toggle */
@@ -1514,13 +1538,53 @@ body.mobile-nav-active {
         font-size: 2.8rem;
     }
     
-    .intro-heading {
-        font-size: 2rem;
-    }
-    
     .timeline-company-period {
         flex-direction: column;
         gap: 4px;
+    }
+    
+    /* Card padding adjustments for narrow mobile viewports */
+    .service-card {
+        padding: 2.5rem 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .skill-category-card {
+        padding: 1.75rem;
+        gap: 1.25rem;
+    }
+    
+    .education-card {
+        padding: 1.75rem;
+    }
+    
+    .cert-card {
+        padding: 1.25rem;
+        gap: 1rem;
+    }
+    
+    /* Timeline adjustments */
+    .timeline-vertical {
+        padding-left: 1.5rem;
+        gap: 3rem;
+    }
+    
+    .timeline-node::before {
+        left: calc(-1.5rem - 5px);
+    }
+    
+    .timeline-role-title {
+        font-size: 1.3rem;
+    }
+    
+    /* Form & footer adjustments */
+    .contact-form {
+        gap: 2rem;
+    }
+    
+    .contact-right h3 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
     }
     
     .project-image-container {
